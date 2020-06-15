@@ -4,7 +4,9 @@
       <img class="logo" alt="Begrato logo" width="50" src="./assets/logo.jpg">
     </a>
     <AppHeader msg="Welcome to Your Vue.js App"/>
-    <router-view></router-view>
+    <div class="ui container">
+      <router-view></router-view>
+    </div>  
   </div>
 </template>
 
